@@ -1,12 +1,6 @@
 #!/bin/bash
 
-if [ "$(id -u)" != "0" ]
-then
-	echo "Sorry, you are not root."
-	exit 1
-fi
-
-BETTY_STYLE="betty-style"
+BETTY_STYLE="ibetty-style"
 BETTY_DOC="betty-doc"
 BETTY_WRAPPER="betty"
 
